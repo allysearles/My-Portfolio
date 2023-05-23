@@ -1,0 +1,75 @@
+/*
+---------- Design Library for Grab and Go Elements ------------
+example { Text-Element: Font Family - Font Type - Font Size - Color - Opacity }
+
+HOME_PAGE -----------------------
+Header-Background: #FCF7F9;
+Project Title: Playfair Display - Bold - 64px - #000000;
+Project Description Text: Poppins - Regular - 16px - #272142 - 70%;
+
+
+ABOUT_PAGE ----------------------
+
+
+
+CONTACT_PAGE: -------------------
+
+
+
+MYWORK_PAGE: --------------------
+
+
+---------------------------------------------------------------
+*/
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+.Hero {
+	text-align: center;
+	background-color: #fcf7f9;
+}
+
+#Hero-Telement-One {
+	font-family: "Poppins", sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 54px;
+	color: #272142;
+	margin-top: 274px;
+}
+#Hero-Telement-Two {
+	font-family: "Playfair Display", serif;
+	font-weight: 700px;
+	font-style: bold;
+	font-size: 96px;
+	line-height: 128px;
+	color: #000000;
+}
+#Hero-Telement-Three {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 23px;
+	margin-bottom: 49px;
+}
+.btn-branding {
+	background: #ffbedd;
+	color: #ffffff;
+	border-radius: 4px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500px;
+	font-style: Medium;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 273px;
+	padding-top: 18px;
+	padding-left: 46px;
+	padding-bottom: 18px;
+	padding-right: 46px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
