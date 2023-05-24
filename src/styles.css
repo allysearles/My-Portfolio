@@ -25,11 +25,17 @@ MYWORK_PAGE: --------------------
 body {
 	font-family: "Poppins", sans-serif;
 }
+.container {
+	padding-left: 138px;
+	padding-right: 142px;
+}
 .Hero {
 	text-align: center;
 	background-color: #fcf7f9;
 }
-
+#Hero-Button-One {
+	margin-bottom: 273px;
+}
 #Hero-Telement-One {
 	font-family: "Poppins", sans-serif;
 	font-style: bold;
@@ -58,18 +64,207 @@ body {
 }
 .btn-branding {
 	background: #ffbedd;
+	width: 200px;
+	height: 63px;
 	color: #ffffff;
+	border: 1px solid #fcf7f9;
 	border-radius: 4px;
 	font-family: "Poppins", sans-serif;
 	font-weight: 500px;
 	font-style: Medium;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 27px;
-	margin-bottom: 273px;
+	vertical-align: top;
 	padding-top: 18px;
 	padding-left: 46px;
 	padding-bottom: 18px;
 	padding-right: 46px;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+		rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#Body-Telement-One {
+	color: #272142;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	padding-top: 103px;
+	padding-bottom: 92px;
+}
+#Body-Helement-One {
+	color: #000000;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 64px;
+	line-height: 85px;
+	text-align: left;
+	width: 514px;
+	padding-bottom: 55px;
+}
+#Body-Pelement-One {
+	color: #272142;
+	opacity: 70%;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	width: 514px;
+	padding-bottom: 50px;
+}
+#Body-Button-One {
+	margin-bottom: 186px;
+}
+#Body-Helement-Two {
+	color: #000000;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 64px;
+	line-height: 85px;
+	text-align: left;
+	width: 514px;
+	padding-bottom: 55px;
+}
+#Body-Pelement-Two {
+	color: #272142;
+	opacity: 70%;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	width: 514px;
+	padding-bottom: 50px;
+	padding-right: 86px;
+}
+#Body-Button-Two {
+	margin-bottom: 170px;
+}
+#Body-Helement-Three {
+	color: #000000;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 64px;
+	line-height: 85px;
+	text-align: left;
+	width: 514px;
+	padding-bottom: 55px;
+}
+#Body-Pelement-Three {
+	color: #272142;
+	opacity: 70%;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	width: 514px;
+	padding-bottom: 50px;
+	padding-right: 86px;
+}
+#Body-Button-Three {
+	margin-bottom: 191px;
+}
+#footer-background {
+	margin: auto;
+	background-color: #fcf7f9;
+	width: 1488px;
+	height: 576px;
+	padding-top: 117px;
+}
+.footer-container {
+	background-color: #ffe9f3;
+	border-radius: 4px;
+	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+		rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+	width: 1160px;
+	height: 200px;
+	margin-left: 140px;
+	margin-right: 139px;
+	margin: auto;
+	margin-bottom: 76px;
+}
+#Footer-Helement-One {
+	color: #000000;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 48px;
+	line-height: 64px;
+	width: 298px;
+	margin-top: 49px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+#Footer-Telement-One {
+	color: #272142;
+	opacity: 70%;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+}
+#Footer-Button-One {
+	align-content: center;
+}
+#Footer-Telement-two {
+	color: #000000;
+	font-family: "Poppins", sans-serif;
+	font-style: medium;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	padding-top: 76px;
+	padding-bottom: 41px;
+}
+.socialicons {
+	list-style: none;
+	display: inline-flex;
+	align-content: center;
+	text-align: center;
+	margin: auto;
+}
+i {
+	width: 12px;
+	height: 21px;
+}
+#socials {
+	margin: auto;
+}
+#facebook {
+	color: #ffbedd;
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	margin-left: 33px;
+	margin-right: 33px;
+}
+#twitter {
+	color: #ffbedd;
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	margin-left: 33px;
+	margin-right: 33px;
+}
+#instagram {
+	color: #ffbedd;
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	margin-left: 33px;
+	margin-right: 33px;
 }
