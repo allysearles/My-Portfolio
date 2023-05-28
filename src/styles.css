@@ -26,8 +26,14 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 .container {
-	padding-left: 138px;
-	padding-right: 142px;
+	max-width: 1320px;
+	display: grid;
+	line-height: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1320px;
+	padding-left: 12px;
+	padding-right: 12px;
 }
 .Hero {
 	text-align: center;
@@ -47,7 +53,7 @@ body {
 }
 #Hero-Telement-Two {
 	font-family: "Playfair Display", serif;
-	font-weight: 700px;
+	font-weight: 700;
 	font-style: bold;
 	font-size: 96px;
 	line-height: 128px;
@@ -92,6 +98,33 @@ body {
 	text-align: center;
 	padding-top: 103px;
 	padding-bottom: 92px;
+	text-transform: uppercase;
+}
+.project-description {
+	padding: 120px 60px;
+}
+
+#yoga-image {
+	filter: saturate(0);
+}
+#weather-image {
+	filter: saturate(0);
+	padding-top: 30px;
+}
+#yogurt-image {
+	filter: saturate(0);
+}
+#yoga-image:hover {
+	filter: saturate(1);
+	transition-delay: 0.25s;
+}
+#weather-image:hover {
+	filter: saturate(1);
+	transition-delay: 0.25s;
+}
+#yogurt-image:hover {
+	filter: saturate(1);
+	transition-delay: 0.25s;
 }
 #Body-Helement-One {
 	color: #000000;
@@ -101,8 +134,6 @@ body {
 	font-size: 64px;
 	line-height: 85px;
 	text-align: left;
-	width: 514px;
-	padding-bottom: 55px;
 }
 #Body-Pelement-One {
 	color: #272142;
@@ -112,12 +143,8 @@ body {
 	font-style: normal;
 	font-size: 16px;
 	line-height: 30px;
-	width: 514px;
-	padding-bottom: 50px;
 }
-#Body-Button-One {
-	margin-bottom: 186px;
-}
+
 #Body-Helement-Two {
 	color: #000000;
 	font-family: "Playfair Display", serif;
@@ -126,8 +153,6 @@ body {
 	font-size: 64px;
 	line-height: 85px;
 	text-align: left;
-	width: 514px;
-	padding-bottom: 55px;
 }
 #Body-Pelement-Two {
 	color: #272142;
@@ -138,12 +163,8 @@ body {
 	font-size: 16px;
 	line-height: 30px;
 	width: 514px;
-	padding-bottom: 50px;
-	padding-right: 86px;
 }
-#Body-Button-Two {
-	margin-bottom: 170px;
-}
+
 #Body-Helement-Three {
 	color: #000000;
 	font-family: "Playfair Display", serif;
@@ -152,8 +173,6 @@ body {
 	font-size: 64px;
 	line-height: 85px;
 	text-align: left;
-	width: 514px;
-	padding-bottom: 55px;
 }
 #Body-Pelement-Three {
 	color: #272142;
@@ -164,12 +183,8 @@ body {
 	font-size: 16px;
 	line-height: 30px;
 	width: 514px;
-	padding-bottom: 50px;
-	padding-right: 86px;
 }
-#Body-Button-Three {
-	margin-bottom: 191px;
-}
+
 #footer-background {
 	margin: auto;
 	background-color: #fcf7f9;
@@ -267,4 +282,10 @@ i {
 	align-items: center;
 	margin-left: 33px;
 	margin-right: 33px;
+}
+@media (max-width: 900px) {
+	.project-descritption {
+		padding: 0;
+		text-align: center;
+	}
 }

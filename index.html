@@ -45,7 +45,7 @@
 			<nav class="navbar navbar-expand-lg bg-white">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#"
-						><img class="img-fluid" alt="logo" src="src/AllySearles-logo.PNG" />
+						><img class="img-fluid" alt="logo" src="Images/AllySearles-logo.PNG" />
 					</a>
 
 					<button
@@ -80,7 +80,7 @@
 				</div>
 			</nav>
 
-			<h2 id="Hero-Telement-One">Hi I'am</h2>
+			<h2 id="Hero-Telement-One">👋 Hi I'am</h2>
 			<h1 id="Hero-Telement-Two">Ally Searles</h1>
 			<h3 id="Hero-Telement-Three">
 				Front-End Developer, Based in Greenville, SC.
@@ -89,18 +89,19 @@
 				Contact Me
 			</button>
 		</div>
-		<p id="Body-Telement-One">
+		<p id="Body-Telement-One" class="text-center m-5">
 			"A jack of all trades is a master of none, but oftentimes better than a
 			master of one."
 		</p>
 		<div class="container">
-			<div class="row mt-5">
-				<div class="col-12 col-md-6">
-					<img src="" class="img-fluid rounded d-none d-md-block" />
+			<div class="row mb-5">
+				<div class="col d-none d-lg-block">
+					<img id="yoga-image" src="Images/Yogurtapp.png" class="img-fluid" />
 				</div>
-				<div class="col-12 col-md-6">
-					<h2 id="Body-Helement-One" class="mb-3">Yoga App</h2>
-					<p id="Body-Pelement-One" class="text-left">
+				<div class="col">
+					<div class="project-description">
+						<h2 id="Body-Helement-One" class="mb-5">Yoga App</h2>
+					<p id="Body-Pelement-One" class="mb-5 text-muted">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
 						quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
 						eos eveniet alias temporibus deserunt veritatis minima fugiat
@@ -116,17 +117,16 @@
 								View Project
 							</button></a
 						>
-					</div>
+					</div></div>
+					
 				</div>
 			</div>
-			<div class="row mt-5">
-				<div class="col-12 col-md-6">
-					<h2 id="Body-Helement-Two" class="mb-3">Weather App</h2>
-					<p id="Body-Pelement-Two" class="text-left">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-						quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-						eos eveniet alias temporibus deserunt veritatis minima fugiat
-						explicabo eum dolore.
+			<div class="row mb-5">
+				<div class="col">
+					<div class="project-description">
+						<h2 id="Body-Helement-Two" class="mb-5">Weather App</h2>
+					<p id="Body-Pelement-Two" class="mb-5 text-muted">
+						Dive into the world of our sleek, modern, and colorful weather forecast application. Developed to showcase my front-end development skills, this dynamic tool delivers real-time local weather data and a comprehensive 7-day forecast. With a captivating blend of blue and orange aesthetics, our user-friendly interface presents information in a visually stunning and intuitive manner. Click now to witness the fusion of design and front-end expertise, and explore the full potential of our compact weather companion.
 					</p>
 					<div class="mt-5">
 						<a
@@ -143,25 +143,29 @@
 						>
 					</div>
 				</div>
-				<div class="col-12 col-md-6">
+					
+				</div>
+				<div class="mt-5 col d-none d-lg-block">
 					<img
-						src="src/weatherapp.png"
-						class="img-fluid rounded d-none d-md-block"
+						src="Images/weatherapp.png"
+						class="img-fluid"
+						id="weather-image"
 					/>
 				</div>
 			</div>
-			<div class="row mt-5">
-				<div class="col-12 col-md-6">
-					<img src="src/Croissant.png" class="img-fluid rounded d-none d-md-block" />
+			<div class="row mb-5">
+				<div class="col d-none d-lg-block">
+					<img id="yogurt-image"src="Images/dictionaryimg.png" class="img-fluid" />
 				</div>
-				<div class="col- 12 col-md-6">
-					<h2 id="Body-Helement-Three" class="mb-3">Yogurt App</h2>
-					<p id="Body-Pelement-Three" class="text-left">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-						quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-						eos eveniet alias temporibus deserunt veritatis minima fugiat
-						explicabo eum dolore.
-					</p>
+				<div class="col">
+					<div class="project-description">
+						<h2 id="Body-Helement-Three" class="mb-5">Yogurt App</h2>
+						<p id="Body-Pelement-Three" class="mb-5 text-muted">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+							quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+							eos eveniet alias temporibus deserunt veritatis minima fugiat
+							explicabo eum dolore.
+						</p>
 					<div class="mt-5">
 						<a href="https://singular-swan-98828f.netlify.app/photo.html" class="primary-link" target="_blank"
 							><button
@@ -170,9 +174,11 @@
 								class="btn btn-branding"
 							>
 								View Project
-							</button></a
-						>
+							</button>
+							</a>
 					</div>
+				</div>
+					
 				</div>
 			</div>
 		</div>
@@ -202,7 +208,7 @@
 			</div>
 			<p id="Footer-Telement-two">allysearles@icloud.com</p>
 		</div>
-		<div>
+		<div id="socials">
 			<ul class="socialicons">
 				<li><i id="facebook" class="fab fa-facebook"></i></li>
 				<li><i id="twitter" class="fab fa-twitter"></i></li>
