@@ -45,7 +45,7 @@ body {
 #Hero-Telement-One {
 	font-family: "Poppins", sans-serif;
 	font-style: bold;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 36px;
 	line-height: 54px;
 	color: #272142;
@@ -283,9 +283,123 @@ i {
 	margin-left: 33px;
 	margin-right: 33px;
 }
-@media (max-width: 900px) {
-	.project-descritption {
+
+/*  Mobile CSS Styling ---------------------------------  */
+
+@media (max-width: 600px) {
+	.container {
+		max-width: 600px;
+	}
+	.Hero {
+		text-align: center;
+		background-color: #fcf7f9;
+	}
+
+	#Hero-Telement-Two {
+		font-size: 35px;
+		text-align: center;
+		line-height: 30px;
+	}
+	#Hero-Telement-One {
+		font-size: 24px;
+		margin-top: 100px;
+	}
+
+	#Hero-Telement-Three {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+	#Hero-Button-One {
+		margin-bottom: 100px;
+	}
+	.btn-branding {
+		background: #ffbedd;
+		width: 170px;
+		height: 53px;
+		color: #ffffff;
+		border: 1px solid #fcf7f9;
+		border-radius: 4px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 500px;
+		font-style: Medium;
+		font-size: 16px;
+		line-height: 27px;
+		vertical-align: top;
+		padding-top: 9px;
+		padding-left: 23px;
+		padding-bottom: 9px;
+		padding-right: 23px;
+		box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+			rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+	}
+
+	#Body-Telement-One {
+		font-size: 16px;
+		text-align: center;
+		padding: 10px 5px;
+	}
+	.project-description {
 		padding: 0;
 		text-align: center;
+		max-width: fit-content;
+	}
+	#Body-Helement-One {
+		font-size: 24px;
+		text-align: center;
+		line-height: 30px;
+	}
+	#Body-Pelement-One {
+		text-align: center;
+		width: 350px;
+		line-height: 30px;
+	}
+
+	#Body-Helement-Two {
+		font-size: 24px;
+		text-align: center;
+		line-height: 30px;
+	}
+	#Body-Pelement-Two {
+		text-align: center;
+		width: 350px;
+		line-height: 30px;
+	}
+
+	#Body-Helement-Three {
+		font-size: 24px;
+		text-align: center;
+		line-height: 30px;
+	}
+	#Body-Pelement-Three {
+		text-align: center;
+		width: 350px;
+		line-height: 30px;
+	}
+	.footer-container {
+		max-width: 400px;
+		display: table-row-group;
+	}
+	#footer-background {
+		max-width: 500px;
+	}
+	#Footer-Helement-One {
+		font-size: 24px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#Footer-Telement-One {
+		font-size: 12px;
+		padding-left: 40px;
+	}
+	#Footer-Button-One {
+	}
+	#Footer-Telement-Two {
+		font-size: 16px;
+		text-align: center;
+		padding: 10px;
+	}
+	.socialicons {
+		display: inline;
 	}
 }
