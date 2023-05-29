@@ -27,7 +27,7 @@ body {
 }
 .container {
 	max-width: 1320px;
-	display: grid;
+	display: inline-table;
 	line-height: 24px;
 	margin-left: auto;
 	margin-right: auto;
@@ -286,9 +286,9 @@ i {
 
 /*  Mobile CSS Styling ---------------------------------  */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.container {
-		max-width: 600px;
+		max-width: 900px;
 	}
 	.Hero {
 		text-align: center;
@@ -342,7 +342,7 @@ i {
 	.project-description {
 		padding: 0;
 		text-align: center;
-		max-width: fit-content;
+		max-width: auto;
 	}
 	#Body-Helement-One {
 		font-size: 24px;
@@ -353,6 +353,7 @@ i {
 		text-align: center;
 		width: 350px;
 		line-height: 30px;
+		margin: auto;
 	}
 
 	#Body-Helement-Two {
@@ -364,6 +365,7 @@ i {
 		text-align: center;
 		width: 350px;
 		line-height: 30px;
+		margin: auto;
 	}
 
 	#Body-Helement-Three {
@@ -375,6 +377,7 @@ i {
 		text-align: center;
 		width: 350px;
 		line-height: 30px;
+		margin: auto;
 	}
 	.footer-container {
 		max-width: 400px;
