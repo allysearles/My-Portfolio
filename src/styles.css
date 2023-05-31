@@ -231,19 +231,23 @@ body {
 	padding-left: 70px;
 }
 /* MyWORK CSS STYLING -------------------------------------------- */
-.Mywork-Container {
+.container {
 	max-width: 1320px;
-	display: grid;
 	line-height: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1320px;
-	padding-left: 12px;
-	padding-right: 12px;
-	margin-top: 100px;
+	padding: 160px 20px;
+}
+#Mywork-Project-Description {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
 }
 #Mywork-Body-Helement-One {
 	color: #000000;
+	display: block;
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
 	font-style: Bold;
@@ -270,6 +274,9 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 21px;
+}
+.Project-Image {
+	border-radius: 20px;
 }
 /* FOOTER CSS STYLING -------------------------------------------- */
 #footer-background {
@@ -514,21 +521,30 @@ i {
 		margin-top: -10px;
 	}
 	/* MyWORK CSS STYLING -------------------------------------------- */
-	.Mywork-Container {
+	.container {
 		max-width: 575px;
 		margin: auto;
-		margin-left: 30px;
-		margin-right: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	#Mywork-Project-Description {
+		text-align: center;
+		padding: 0;
 	}
 	#Mywork-Body-Helement-One {
-		font-size: 30px;
 		text-align: center;
+		font-size: 55px;
 		max-width: fit-content;
-		line-height: 30px;
+		line-height: 50px;
 		margin: auto;
-		padding-top: 80px;
+		width: 250px;
+		margin-top: -60px;
+		margin-bottom: -60px;
 	}
-
+	.Project-Image {
+		width: fit-content;
+	}
 	/* FOOTER CSS STYLING --------------------------------------------- */
 	.footer-container {
 		max-width: 400px;
