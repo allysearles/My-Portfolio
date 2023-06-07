@@ -19,6 +19,21 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: auto;
 }
+.active {
+	color: #ffbedd !important;
+}
+/* NAVBAR_MENU CSS STYLING----------------------- */
+.navbar-nav > li {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #272142;
+	opacity: 85%;
+	font-family: "Poppins", sans-serif;
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 24px;
+}
+
 /* HOME_PAGE CSS STYLING----------------------- */
 .Home-Container {
 	max-width: 1320px;
@@ -44,7 +59,7 @@ body {
 	font-size: 36px;
 	line-height: 54px;
 	color: #272142;
-	margin-top: 274px;
+	margin-top: 174px;
 }
 #Home-Hero-Telement-Two {
 	font-family: "Playfair Display", serif;
@@ -383,8 +398,11 @@ i {
 
 @media (max-width: 575px) {
 	/* HOME_PAGE CSS STYLING---------------------------------------------- */
-	nav {
+	.navbar-nav {
 		max-width: fit-content;
+		justify-content: end;
+		align-items: center !important;
+		margin: auto !important;
 	}
 	.Home-Container {
 		max-width: 575px;
